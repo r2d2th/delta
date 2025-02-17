@@ -1,0 +1,10 @@
+.container {
+  color: #234;
+  /* background-color: #faa; */
+}
+.content {
+  margin: 0 auto;
+  /* background-color: #aaf; */
+  width: fit-content;
+  color: var(--kb-primary-text-color);
+}

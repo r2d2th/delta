@@ -1,0 +1,59 @@
+.toucher {
+}
+
+.toucher-input {
+  max-width: 91ch;
+  min-width: 91ch;
+
+  height: 2rem;
+  padding-bottom: 0;
+  padding-left: 1px;
+  /* border: 0 none rgba(0, 0, 0, 0); */
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px dotted var(--kb-primary-text-color);
+  font-size: 1rem;
+  font-family: monospace, monospace;
+  overflow: hidden;
+  color: var(--kb-primary-text-color);
+  background-color: var(--kb-main-bg-color);
+  /* outline-color: rgb(0, 0, 0, 100%); */
+  /* outline: thick double #32a1ce; */
+}
+.toucher-input-error {
+  background-color: yellow;
+  color: red;
+}
+
+
+/* #qwe:focus { */
+  /* outline: 1px solid var(--kb-main-bg-color); */
+  /* outline: none !important; */
+  /* outline: 3px solid green;  */
+/* } */
+/* #qwe:focus-visible { */
+/*   outline: none !important; */
+/* } */
+/**/
+/* #qwe:focus-within { */
+/*   outline: none !important; */
+/* } */
+.toucher-sample {
+  max-width: 91ch;
+  min-width: 91ch;
+
+  font-size: 1rem;
+  font-family: monospace, monospace;
+  /* background-color: white; */
+  color: var(--kb-primary-text-color);
+  background-color: var(--kb-main-bg-color);
+  padding-left: 1px;
+}
+.toucherWrapper {
+  margin: 0 auto;
+  /* background-color: #aaa; */
+  background-color: var(--kb-main-bg-color);
+  /* border: 1px solid blue; */
+  width: fit-content;
+}

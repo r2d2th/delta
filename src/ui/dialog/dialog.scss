@@ -1,0 +1,90 @@
+.dialog-wrapper {
+  margin: 2rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.dialog {
+  display: grid;
+  grid-template-columns: 12fr 1fr 12fr;
+  grid-auto-flow: row dense;
+  grid-row-gap: 1.5rem;
+/*  border-bottom: 1px solid grey;*/
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-family: 'Helvetica', 'Arial';
+}
+
+.phrase-left {
+ grid-column-start: 1;
+  border-bottom: 1px solid grey;
+  align-self: end;
+}
+
+.phrase-middle {
+  grid-column-start: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.phrase-right {
+  grid-column-start: 3;
+  border-bottom: 1px solid grey;
+  align-self: end;
+}
+
+.phrase-correct {
+  color: #1e0aea;
+}
+
+.phrase-incorrect {
+  color: #aa0000;
+}
+
+.phrase-borderless {
+  border-bottom: 0;
+}
+
+.dialog-button {
+  margin-left: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.phrase-answer {
+  text-decoration: underline;
+}
+
+hr.phrase-hr {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.phrase-input {
+  width: calc(100% - 0.5rem);
+}
+
+.dialog-symbolist {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.dialog-icon {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.dialog-icon-blue {
+  stroke: #1e0aea;
+}
+
+.dialog-icon-red {
+  stroke: #aa0000;
+}

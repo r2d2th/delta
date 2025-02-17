@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    180deg,
+    var(--tech-primary-color) 0%,
+    var(--tech-secondary-color) 10.45%,
+    var(--tech-tertiary-color) 41.35%
+  );
+  background-attachment: fixed;
+}
+
+p, h1, h2, h3, h4, h5, h6, code {
+  margin-left: 2.0rem;
+  margin-right: 2.0rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.unit-pg {
+  display: flex;
+  flex-direction: row;
+  margin-top: calc(var(--nav-height) + 1rem);
+  margin-bottom: 1rem;
+}
+
+.unit-pg__menu-left {
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 60rem) {
+  .unit-pg__menu-left {
+    flex: 0 0 12rem;
+  }
+}
+
+.unit-wrapper {
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.unit-pg__menu-left__item {
+  background-color: #eee;
+  border: 1px solid grey;
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
+  height: 5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items:center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.32);
+}
+
+.unit-pg__menu-left__item__title {
+  margin-left: 1em;
+}
+
+.unit-pg__menu-left__item__active {
+  font-weight: bold;
+}
+
+.unit-pg__menu-left__item__normal {
+  font-weight: normal;
+}
+
+.unit-pg__menu-left__item--bad {
+  background-color: #eaa;
+}
+
+.unit-pg__menu-left__item--soso {
+  background-color: #cec;
+}
+
+.unit-pg__menu-left__item--good {
+  background-color: #aea;
+}
+
+
+.unit-pg__menu-left__item:hover {
+  color: #b22;
+  cursor: pointer;
+}
+
+.unit-pg__content {
+  flex: 1 1 auto;
+  border: 1px solid grey;
+  background-color: blue;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: #fff; /*#ccc; */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.32);
+}
+
+.unit-pg__space-right {
+  flex: 0 0 25%;
+}
+
+.unit-pg-symbolist {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.unit-pg-symbolist__icon-style {
+  display: inline-block;
+  fill:none;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke:#1e0aea;
+}
+
+.sim-container {
+  width: 800px;
+  height:450px;
+/*  width: 100%;*/
+/*  height: 100%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /*#caa;*/
+}
+

@@ -1,0 +1,51 @@
+$grey-color: #777;
+:root {
+  --single-px: 1px;
+/*  --font-regular: 'Palatino';*/
+}
+
+.tabwrap {
+}
+
+.tabgroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: red;
+  background: #fff;
+  /*height: 2.0em;*/
+}
+
+.tabbtn {
+  background: #ccc;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-right: solid var(--single-px);
+  border-bottom: solid 1px $grey-color;
+/*  padding: 0.3rem 0.5rem 0.3rem 0.5rem;*/
+  font-size: 0.75rem;
+  height: 1.6rem;
+}
+
+.tabactive {
+  background: #fff;
+  border-bottom: 0;
+}
+
+.tableft {
+  border-left: solid 1px $grey-color;
+}
+
+.tabber-outlet {
+  margin-top: calc(1.6rem - 1px);
+  border: solid 1px $grey-color;
+  height: calc(450px - 4.0rem);
+  padding: 1rem;
+  overflow: auto;
+  border-bottom-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  background-color: #fff;
+}
+

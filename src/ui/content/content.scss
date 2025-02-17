@@ -1,0 +1,51 @@
+@font-face {
+   font-family: 'Comfortaa';
+   src: url('comfortaa.woff2');
+}
+
+.md-class {
+  font-family: 'Comfortaa';
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.md-class table {
+  margin-left: 2rem;
+  border: 1px solid grey;
+}
+
+.md-class td {
+  border: 1px solid grey;
+  padding: 0.25rem;
+}
+
+.md-class th {
+  border: 1px solid grey;
+  padding: 0.25rem;
+}
+
+.content {
+  position: relative;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-videp {
+  width: 100%;
+  height: auto;
+}
+
+.puzzle-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.picture-img {
+  border: 1px solid grey;
+}
