@@ -1,2 +1,2 @@
-# delta
+# Delta
 Delta
